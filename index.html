@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Для моей любимой Насти ❤️</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Marck+Script&family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="hearts" aria-hidden="true"></div>
+  <main class="card">
+    <div class="eyebrow">маленькое послание издалека</div>
+    <div class="big-heart">♥</div>
+    <section id="intro" class="screen active">
+      <p class="script">Для моей любимой</p>
+      <h1>Настя, это всё для тебя</h1>
+      <p class="lead">Я люблю тебя целиком: твой характер, твои глаза, твою заботу и всё остальное.</p>
+      <button class="primary" data-next="quiz">Открыть валентинку <span>→</span></button>
+      <p class="hint">нажми, любимая</p>
+    </section>
+
+    <section id="quiz" class="screen">
+      <div class="progress"><span id="progressBar"></span></div>
+      <p class="question-count" id="questionCount"></p>
+      <h2 id="question"></h2>
+      <div id="answers" class="answers"></div>
+      <p id="feedback" class="feedback"></p>
+    </section>
+
+    <section id="final" class="screen">
+      <div class="sparkle">✦</div>
+      <p class="script">И вот главный вопрос…</p>
+      <h1>Настя, ты меня любишь?</h1>
+      <p class="lead">Выбирай честно. Хотя, кажется, я уже знаю ответ, любимая ❤️</p>
+      <div class="choice-area" id="choiceArea">
+        <button class="primary yes" id="yesBtn">Да, люблю ❤️</button>
+        <button class="no" id="noBtn">Нет</button>
+      </div>
+      <p id="noHint" class="hint"></p>
+    </section>
+
+    <section id="love" class="screen">
+      <div class="big-heart pulse">♥</div>
+      <p class="script">Я так и знал</p>
+      <h1>Я люблю тебя, Настя</h1>
+      <p class="love-letter">Сильно. Каждый день. Даже когда между нами расстояние, ты всё равно рядом — в моих мыслях, в моём сердце и во всех моих планах на будущее. Спасибо, что ты есть у меня, любимая.</p>
+      <p class="signature">Твой любимый ♡</p>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
